@@ -33,6 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:layout_constraintEnd_toEndOf="parent"
+            android:background="@color/cardview_dark_background"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/app_bar_layout">
 
@@ -88,7 +89,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/app_bar_layout"
-        app:spanCount="2"
+        app:spanCount="3"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         tools:listitem="@layout/item_movie"
         tools:visibility="visible" />
